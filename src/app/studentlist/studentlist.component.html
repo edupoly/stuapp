@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let student of students">
+    <h1 [class]="student.gender==='female'?'bg-success':'bg-danger'">{{student.firstname}} {{student.lastname}}</h1>
+  </li>
+</ul>
